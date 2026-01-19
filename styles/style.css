@@ -26,7 +26,6 @@
 }
 
 .navbar-container h1 {
-    
     margin: 10px 0px 10px 200px;
 }
 
@@ -54,6 +53,44 @@
     line-height: 1.18rem;
     color: rgba(255, 255, 255, 1);
     margin: 24px 200px 24px 0px;
+    cursor: pointer;
+    transition: transform 3s linear;
+}
+
+.navbar-container button:hover {
+    transform: translateX(50px);
+}
+
+.hamburger-menu {
+    display: none;
 }
 
 /* Navbar Section End */
+
+/* Responsive Section Start */
+
+@media screen and (max-width: 576px) {
+    .navbar-container h1 {
+        margin-left: 0px;
+        padding: 10px 0px 10px 20px;
+    }
+
+    .navbar-container h1 img {
+        max-width: 200px;
+        max-height: 50px;
+    }
+
+    .navbar-container ul,
+    .navbar-container button {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+        padding: 18px 18px 18px 0px;
+    }
+
+
+}
+
+/* Responsive Section End */
