@@ -213,6 +213,78 @@
 
 /* About Section End */
 
+/* Why Choose Section Start */
+
+    .why-choose-container {
+        background-color: rgba(35, 14, 61, 1);
+        padding: 120px 200px;
+    }
+
+    .why-choose-container h2 {
+        color: rgba(255, 255, 255, 1);
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 3.62rem;
+        margin-bottom: 40px;
+    }
+
+    #headphone {
+        grid-area: headphone;
+    }
+
+    #device {
+        grid-area: device;
+    }
+
+    #location {
+        grid-area: location;
+    }
+
+    #zap {
+        grid-area: zap;
+    }
+
+    #resource {
+        grid-area: resource;
+    }
+
+    .why-choose-cards {
+        display: grid;
+        gap: 30px;
+        grid-template-areas: 
+            "headphone device device"
+            "headphone location location"
+            "zap       zap      resource";
+    }
+
+    .why-choose-card {
+        padding: 40px;
+        background-color: rgba(53, 17, 101, 0.4);
+        border-radius: 40px;
+    }
+
+    .why-choose-card img {
+        margin-bottom: 16px;
+    }
+
+    .why-choose-card h4 {
+        margin-bottom: 16px;
+        color: rgba(255, 255, 255, 1);
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1.81rem;
+    }
+
+    .why-choose-card p {
+        color: rgba(255, 255, 255, 1);
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+
+/* Why Choose Section End */
+
 /* Responsive Section Start */
 
 @media screen and (max-width: 576px) {
@@ -296,6 +368,34 @@
     }
 
     /* About Section End */
+
+    /* Why Choose Section Start */
+
+    .why-choose-container {
+        padding: 40px 20px;
+    }
+
+    .why-choose-container h2 {
+        margin-bottom: 16px;
+    }
+
+    .why-choose-cards {
+        gap: 16px;
+        grid-template-areas: 
+            "headphone"
+            "device"
+            "location"
+            "zap"
+            "resource";
+    }
+
+    /* Why Choose Section End */
+
+    /* Why Choose Section Start */
+
+    
+
+    /* Why Choose Section End */
 
 
 }
