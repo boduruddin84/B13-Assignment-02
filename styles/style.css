@@ -285,6 +285,74 @@
 
 /* Why Choose Section End */
 
+/* Featured Section Start */
+
+    .Featured-container {
+        background-color: rgba(26, 11, 46, 1);
+        padding: 120px 200px;
+    }
+    
+    .Featured-container h2 {
+        color: rgba(255, 255, 255, 1);
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 3.62rem;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .featured-cards {
+        display: flex;
+        gap: 30px;
+    }
+
+    .featured-card iframe {
+        max-width: 380px;
+        max-height: 214px;
+        border-radius: 24px 24px 0px 0px;
+        vertical-align: middle;
+    }
+
+    .featured-card-details {
+        background-color: rgba(37, 13, 68, 1);
+        border-radius: 0px 0px 24px 24px;
+        padding: 24px;
+    }
+
+    .featured-card-details h4 {
+        color: rgba(255, 255, 255, 1);
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1.81rem;
+        margin-bottom: 12px;
+    }
+
+    .featured-card-details-text {
+        color: rgba(255, 255, 255, 1);
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin-bottom: 12px;
+    }
+
+    .featured-card-details-time {
+        color: rgba(0, 255, 136, 1);
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.5rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .featured-card-details-time img {
+        max-width: 20px;
+        max-height: 20px;
+        padding: 1.67px;
+        margin-right: 6px;
+    }
+
+/* Featured Section End */
+
 /* Responsive Section Start */
 
 @media screen and (max-width: 576px) {
@@ -391,11 +459,39 @@
 
     /* Why Choose Section End */
 
-    /* Why Choose Section Start */
+    /* Featured Section Start */
 
-    
+    .Featured-container {
+        padding: 40px 20px;
+    }
 
-    /* Why Choose Section End */
+    .Featured-container h2 {
+        margin-bottom: 24px;
+        font-size: 2rem;
+        line-height: 2.43rem;
+    }
+
+    .featured-cards {
+        flex-direction: column;
+    }
+
+    .featured-card iframe {
+        max-width: 400px;
+        max-height: 225px;
+    }
+
+    .featured-card-details {
+        padding: 16px;
+        max-width: 400px;
+    }
+
+    .featured-card-details h4 {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        margin-bottom: 8px;
+    }
+
+    /* Featured Section End */
 
 
 }
